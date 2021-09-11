@@ -1,0 +1,7 @@
+{
+  "name": "contagem-vogais-consoantes",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "vue"
+}
