@@ -1,0 +1,6 @@
+{
+	"appId": "io.ionic.starter",
+	"appName": "contagem-vogais-consoantes",
+	"webDir": "dist",
+	"bundledWebRuntime": false
+}
