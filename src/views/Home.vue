@@ -84,13 +84,11 @@ export default defineComponent({
         this.consoantes = palavraSemVogais.length; //sem as vogais, o tamanho do que sobra é o n° de consoantes
       }  
     
-      const palavraSemConsoantes = palavraSemEspacos.replace(/[BCDFGHJKLMNPQRSTVXWYZ]/ig, '');
+      const palavraSemConsoantes = palavraSemEspacos.replace(/[BCDFGHJKLMNPQRSTVXWYZ]/ig, ''); //remove as consoantes da palavra "limpa"
 
       if(palavraSemConsoantes.length != 0) {
         this.vogais = palavraSemConsoantes.length; //sem as consoantes, o tamanho do que sobra é o n° de vogais
-      } 
-      
-      
+      }      
 
     },    
           
@@ -132,9 +130,5 @@ export default defineComponent({
   border: 1px solid lightgray;
   border-radius: 5px;
 }
-.ion-button {
-  margin-bottom: 50px;
-}
-
 
 </style>
