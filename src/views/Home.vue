@@ -11,7 +11,7 @@
         <ion-row>
           <ion-col>
             <ion-label
-              >Digite o que quiser e clique em <b>enviar:</b></ion-label
+              >Digite o que quiser e clique em <strong>enviar:</strong></ion-label
             >
             <ion-input
               id="input-usuario"
@@ -88,7 +88,8 @@ export default defineComponent({
 
       if(palavraSemConsoantes.length != 0) {
         this.vogais = palavraSemConsoantes.length; //sem as consoantes, o tamanho do que sobra é o n° de vogais
-      }      
+      } 
+      
 
     },    
           
