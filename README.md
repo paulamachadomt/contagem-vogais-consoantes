@@ -12,4 +12,6 @@
 * Para rodar no emulador do Android Studio: **ionic capacitor add android** e, na sequência, **ionic capacitor run android**;
 * Para configurações de ambiente, consultar documentação do Ionic: https://ionicframework.com/docs/developing/android.
 
-![Image](https://github.com/paulamachadomt/contagem-vogais-consoantes/blob/main/print_emulador.png)
+<p align="center">
+  <img src="https://github.com/paulamachadomt/contagem-vogais-consoantes/blob/main/print_emulador.png" />
+</p>
