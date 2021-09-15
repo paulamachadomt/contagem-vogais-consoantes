@@ -74,7 +74,7 @@ export default defineComponent({
       const elementoInput = document.getElementById(input);
       const palavra = elementoInput.value;
       
-      const palavraSemNumeros = palavra.replace(/[1234567890]/ig, ''); //remove números
+      const palavraSemNumeros = palavra.replace(/[0-9]/ig, ''); //remove números
       const palavraSemCaracteresEspeciais = palavraSemNumeros.replace(/[^a-zA-ZÁÀÂÃÉÈÊÍÏÓÔÕÖÚÇÑ ]/ig, ''); //remove caracteres especiais
       const palavraSemEspacos = palavraSemCaracteresEspeciais.replace(/\s/g, ''); //remove espaços
       
